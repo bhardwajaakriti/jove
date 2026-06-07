@@ -5,7 +5,7 @@
     "author": "Dr. Lin Chen",
     "institution": "Westlake Bioengineering Lab",
     "subjectArea": "Biology",
-    "videoType": "JoVE Journal",
+    "videoType": "Research Journal",
     "sourceType": "Protocol notes",
     "status": "editorial-review",
     "submittedAt": "2026-05-15",
@@ -19,9 +19,9 @@
     "timeSavedHours": 6.3,
     "owner": "Eli Morgan"
   },
-  "sourceSummary": "Dr. Lin Chen uploaded protocol notes for a JoVE Journal manuscript. The AI draft used JoVE section rules, subject terminology, and published-article examples for Biology.",
+  "sourceSummary": "Dr. Lin Chen uploaded protocol notes for a Research Journal manuscript. The AI draft used manuscript section rules, subject terminology, and published-article examples for Biology.",
   "styleGuideContext": [
-    "All required JoVE sections must be present.",
+    "All required manuscript sections must be present.",
     "Protocol instructions use numbered imperative voice.",
     "No first-person phrasing in restricted manuscript sections.",
     "Figures, tables, materials, and safety notes must be explicitly referenced."
@@ -33,7 +33,7 @@
       "wordCount": 609,
       "qualityScore": 90,
       "locked": true,
-      "body": "This section frames the biology problem, describes why the visual method matters, and positions the procedure for JoVE viewers. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution."
+      "body": "This section frames the biology problem, describes why the visual method matters, and positions the procedure for video learners. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution."
     },
     {
       "id": "script-015-section-2",
@@ -71,13 +71,13 @@
     {
       "id": "script-015-issue-style",
       "severity": "info",
-      "title": "JoVE section structure preserved",
+      "title": "Required section structure preserved",
       "location": "All sections",
       "recommendation": "Locked sections are present and cannot be deleted in the author editor."
     }
   ],
   "editorialNotes": [
-    "AI draft generated with JoVE house structure locked.",
+    "AI draft generated with the manuscript structure locked.",
     "Estimated revision cycles reduced to 1.5.",
     "Ready for editor approval or light copy edit."
   ]

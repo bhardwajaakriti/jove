@@ -9,4 +9,4 @@ export const SUBJECT_OPTIONS: SubjectArea[] = [
   'Environmental Sciences',
 ];
 
-export const VIDEO_TYPE_OPTIONS: VideoType[] = ['JoVE Journal', 'Science Education'];
+export const VIDEO_TYPE_OPTIONS: VideoType[] = ['Research Journal', 'Science Education'];

@@ -77,7 +77,7 @@ export default function EditorialQueuePage() {
     <Box>
       <PageHeader
         title="Editorial Manuscript Queue"
-        subtitle="Incoming AI-generated drafts with validation scores, required fixes, and time-saved estimates for JoVE editors."
+        subtitle="Incoming AI-generated drafts with validation scores, required fixes, and time-saved estimates for editors."
         actions={
           <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
             <Button
@@ -293,7 +293,7 @@ export default function EditorialQueuePage() {
               <Card>
                 <CardContent>
                   <Typography variant="subtitle1" sx={{ mb: 1.5 }}>
-                    Locked JoVE sections
+                    Locked manuscript sections
                   </Typography>
                   <Stack spacing={1.25}>
                     {detail.sections.map((section) => (

@@ -15,9 +15,9 @@ import type {
 
 /**
  * Single frontend data contract. Pages depend on this interface only, never on
- * bundled JSON or fetch, mirroring the mock-first pattern in agentic_hub_coworkers.
+ * bundled fixture files or fetch, mirroring the data-loading pattern in agentic_hub_coworkers.
  */
-export interface JoveDataSource {
+export interface WorkflowDataSource {
   readonly id: string;
   readonly label: string;
 

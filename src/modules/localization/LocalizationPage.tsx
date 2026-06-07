@@ -97,7 +97,7 @@ export default function LocalizationPage() {
     <Box>
       <PageHeader
         title="Multilingual Localization Review"
-        subtitle="AI-translated JoVE learning assets with terminology QA, text overflow checks, placeholder preservation, and side-by-side editor review."
+        subtitle="AI-translated learning assets with terminology QA, text overflow checks, placeholder preservation, and side-by-side editor review."
         actions={
           <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
             <Button

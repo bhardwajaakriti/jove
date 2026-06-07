@@ -1,9 +1,9 @@
 {
-  "name": "jove-ai-workflows",
+  "name": "ai-workflow-studio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "JoVE AI workflow prototype — frontend-only, mock-data driven",
+  "description": "AI workflow prototype - frontend-only with sample data",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

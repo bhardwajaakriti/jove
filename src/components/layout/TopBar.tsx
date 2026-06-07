@@ -1,7 +1,6 @@
 import {
   AppBar,
   Box,
-  Chip,
   IconButton,
   Stack,
   Toolbar,
@@ -15,7 +14,6 @@ import ScienceRoundedIcon from '@mui/icons-material/ScienceRounded';
 import { setSidebarOpen, toggleColorMode } from '@/app/store/uiSlice';
 import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
 import { APP_NAME, APP_SUBTITLE } from '@/constants/app';
-import { dataSource } from '@/services/dataSourceRegistry';
 
 export function TopBar() {
   const dispatch = useAppDispatch();
@@ -48,7 +46,6 @@ export function TopBar() {
           </Typography>
         </Box>
         <Stack direction="row" spacing={1} alignItems="center" sx={{ ml: 'auto' }}>
-          <Chip size="small" label={dataSource.label} variant="outlined" sx={{ display: { xs: 'none', sm: 'inline-flex' } }} />
           <Tooltip title="Toggle theme">
             <IconButton onClick={() => dispatch(toggleColorMode())} aria-label="Toggle theme">
               <ModeIcon />

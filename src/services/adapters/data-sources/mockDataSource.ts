@@ -1,4 +1,4 @@
-import type { JoveDataSource } from '@/services/dataSource';
+import type { WorkflowDataSource } from '@/services/dataSource';
 import type {
   ActivityEntry,
   DashboardFilters,
@@ -59,9 +59,9 @@ function once<T>(loader: () => Promise<T>): () => Promise<T> {
   return () => (promise ??= loader());
 }
 
-export class MockDataSource implements JoveDataSource {
+export class MockDataSource implements WorkflowDataSource {
   readonly id = 'mock';
-  readonly label = 'Mock data (bundled JSON)';
+  readonly label = 'Local sample dataset';
 
   private loadScripts = once(async () => {
     const data = await fetchJson<{ items: ScriptSubmission[] }>('script-submissions/index.json');

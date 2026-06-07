@@ -19,9 +19,9 @@
     "timeSavedHours": 7.7,
     "owner": "Jordan Lee"
   },
-  "sourceSummary": "Dr. Lin Chen uploaded protocol notes for a Science Education manuscript. The AI draft used JoVE section rules, subject terminology, and published-article examples for Neuroscience.",
+  "sourceSummary": "Dr. Lin Chen uploaded protocol notes for a Science Education manuscript. The AI draft used manuscript section rules, subject terminology, and published-article examples for Neuroscience.",
   "styleGuideContext": [
-    "All required JoVE sections must be present.",
+    "All required manuscript sections must be present.",
     "Protocol instructions use numbered imperative voice.",
     "No first-person phrasing in restricted manuscript sections.",
     "Figures, tables, materials, and safety notes must be explicitly referenced."
@@ -33,7 +33,7 @@
       "wordCount": 662,
       "qualityScore": 89,
       "locked": true,
-      "body": "This section frames the neuroscience problem, describes why the visual method matters, and positions the procedure for JoVE viewers. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution."
+      "body": "This section frames the neuroscience problem, describes why the visual method matters, and positions the procedure for video learners. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution."
     },
     {
       "id": "script-025-section-2",
@@ -71,13 +71,13 @@
     {
       "id": "script-025-issue-style",
       "severity": "info",
-      "title": "JoVE section structure preserved",
+      "title": "Required section structure preserved",
       "location": "All sections",
       "recommendation": "Locked sections are present and cannot be deleted in the author editor."
     }
   ],
   "editorialNotes": [
-    "AI draft generated with JoVE house structure locked.",
+    "AI draft generated with the manuscript structure locked.",
     "Estimated revision cycles reduced to 1.6.",
     "Ready for editor approval or light copy edit."
   ]

@@ -37,7 +37,7 @@ const SUBJECT_AREAS = [
   'Engineering',
   'Environmental Sciences',
 ];
-const VIDEO_TYPES = ['JoVE Journal', 'Science Education'];
+const VIDEO_TYPES = ['Research Journal', 'Science Education'];
 const SCRIPT_STATUSES = [
   'intake',
   'generated',
@@ -146,7 +146,7 @@ function sectionBody(title, script) {
   const term = pick(MATERIAL_TERMS);
   const subject = script.subjectArea.toLowerCase();
   const base = {
-    Introduction: `This section frames the ${subject} problem, describes why the visual method matters, and positions the procedure for JoVE viewers. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution.`,
+    Introduction: `This section frames the ${subject} problem, describes why the visual method matters, and positions the procedure for video learners. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution.`,
     Protocol: `1. Prepare samples, reagents, and equipment, including the ${term}. 2. Label each sample and control before beginning the procedure. 3. Execute the procedure in numbered imperative steps. 4. Record timing, temperature, and visual acceptance criteria after each critical step.`,
     'Representative Results': `Representative outputs should show the expected visual endpoint, quantified comparison, and figure references. The draft calls out Figure 1 for setup, Figure 2 for the observed outcome, and Table 1 for quality control values.`,
     Discussion: `The discussion identifies critical steps, troubleshooting guidance, limitations, and safe handling notes. It avoids first-person phrasing and keeps claims tied to observations captured during filming.`,
@@ -186,7 +186,7 @@ function buildValidationIssues(script) {
   issues.push({
     id: `${script.id}-issue-style`,
     severity: 'info',
-    title: 'JoVE section structure preserved',
+    title: 'Required section structure preserved',
     location: 'All sections',
     recommendation: 'Locked sections are present and cannot be deleted in the author editor.',
   });
@@ -197,9 +197,9 @@ function buildScriptDetail(script) {
   const sectionTitles = ['Introduction', 'Protocol', 'Representative Results', 'Discussion'];
   return {
     submission: script,
-    sourceSummary: `${script.author} uploaded ${script.sourceType.toLowerCase()} for a ${script.videoType} manuscript. The AI draft used JoVE section rules, subject terminology, and published-article examples for ${script.subjectArea}.`,
+    sourceSummary: `${script.author} uploaded ${script.sourceType.toLowerCase()} for a ${script.videoType} manuscript. The AI draft used manuscript section rules, subject terminology, and published-article examples for ${script.subjectArea}.`,
     styleGuideContext: [
-      'All required JoVE sections must be present.',
+      'All required manuscript sections must be present.',
       'Protocol instructions use numbered imperative voice.',
       'No first-person phrasing in restricted manuscript sections.',
       'Figures, tables, materials, and safety notes must be explicitly referenced.',
@@ -214,7 +214,7 @@ function buildScriptDetail(script) {
     })),
     validationIssues: buildValidationIssues(script),
     editorialNotes: [
-      'AI draft generated with JoVE house structure locked.',
+      'AI draft generated with the manuscript structure locked.',
       `Estimated revision cycles reduced to ${script.estimatedRevisionCycles}.`,
       script.redFlags > 0 ? 'Author must clear red validation flags before submission unlocks.' : 'Ready for editor approval or light copy edit.',
     ],
@@ -293,7 +293,7 @@ function buildLocalizationIssues(job) {
   issues.push({
     id: `${job.id}-issue-theme`,
     severity: 'info',
-    title: 'JoVE visual template preserved',
+    title: 'Visual template preserved',
     location: 'Master slides',
     recommendation: 'Logos, colors, and image positions remained locked during generation.',
   });
@@ -336,8 +336,8 @@ function buildSegments(job) {
 function buildLocalizationDetail(job) {
   return {
     job,
-    originalLayout: 'English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.',
-    translatedLayout: `${job.targetLanguage} output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.`,
+    originalLayout: 'English source asset: title block, two-column protocol body, figure placeholder, and branded footer.',
+    translatedLayout: `${job.targetLanguage} output: same master slide, locked logo, retained image positions, and text boxes auto-fit to layout bounds.`,
     segments: buildSegments(job),
     validationIssues: buildLocalizationIssues(job),
     glossaryTerms: [
@@ -369,7 +369,7 @@ function buildActivity(scripts, jobs) {
     timestamp: isoDate(addDays(TODAY, -idx)),
     feature: 'Script Generator',
     title: script.title,
-    detail: script.redFlags > 0 ? 'Validation report flagged required author fixes.' : 'Draft passed JoVE section structure checks.',
+    detail: script.redFlags > 0 ? 'Validation report flagged required author fixes.' : 'Draft passed section structure checks.',
     owner: script.owner,
     severity: script.redFlags > 0 ? 'critical' : script.amberFlags > 3 ? 'warning' : 'info',
   }));

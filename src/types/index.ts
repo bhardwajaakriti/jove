@@ -8,7 +8,7 @@ export type SubjectArea =
   | 'Engineering'
   | 'Environmental Sciences';
 
-export type VideoType = 'JoVE Journal' | 'Science Education';
+export type VideoType = 'Research Journal' | 'Science Education';
 
 export type ScriptStatus =
   | 'intake'

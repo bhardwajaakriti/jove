@@ -1,6 +1,6 @@
 import { dataSource } from '@/services/dataSourceRegistry';
-import type { JoveDataSource } from '@/services/dataSource';
+import type { WorkflowDataSource } from '@/services/dataSource';
 
-export function useDataSource(): JoveDataSource {
+export function useDataSource(): WorkflowDataSource {
   return dataSource;
 }

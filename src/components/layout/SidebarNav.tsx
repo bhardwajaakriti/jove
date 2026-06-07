@@ -19,7 +19,7 @@ export function SidebarNav({ onNavigate }: { onNavigate?: () => void }) {
       <Toolbar sx={{ px: 2, alignItems: 'center' }}>
         <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1 }}>
           <Typography variant="h6" sx={{ color: 'primary.main', lineHeight: 1 }}>
-            JoVE
+            AI Studio
           </Typography>
           <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 800 }}>
             AI Ops

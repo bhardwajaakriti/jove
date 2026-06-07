@@ -21,8 +21,8 @@
     "reviewer": "Priya Shah",
     "etaHours": 26
   },
-  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
-  "translatedLayout": "French output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "originalLayout": "English source asset: title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "French output: same master slide, locked logo, retained image positions, and text boxes auto-fit to layout bounds.",
   "segments": [
     {
       "id": "loc-004-seg-1",
@@ -70,7 +70,7 @@
     {
       "id": "loc-004-issue-theme",
       "severity": "info",
-      "title": "JoVE visual template preserved",
+      "title": "Visual template preserved",
       "location": "Master slides",
       "recommendation": "Logos, colors, and image positions remained locked during generation."
     }

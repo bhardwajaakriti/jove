@@ -6,7 +6,7 @@ export function RouteFallback() {
       <Stack spacing={1.5} alignItems="center">
         <CircularProgress size={28} />
         <Typography variant="body2" color="text.secondary">
-          Loading JoVE workflow
+          Loading workflow
         </Typography>
       </Stack>
     </Box>

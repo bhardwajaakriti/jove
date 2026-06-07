@@ -56,8 +56,8 @@ export default function OverviewPage() {
   return (
     <Box>
       <PageHeader
-        title="JoVE AI Command Center"
-        subtitle="Operational mock dashboard for author manuscript generation, validation gates, multilingual localization, and reviewer queues."
+        title="AI Command Center"
+        subtitle="Operational dashboard for author manuscript generation, validation gates, multilingual localization, and reviewer queues."
         actions={
           <Chip
             icon={<CalendarTodayRoundedIcon sx={{ fontSize: 16 }} />}

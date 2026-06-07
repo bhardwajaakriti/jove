@@ -40,7 +40,7 @@ export default function ScriptGeneratorPage() {
   const ds = useDataSource();
   const [title, setTitle] = useState('Quantifying Cell Migration Using Fluorescence Imaging');
   const [subjectArea, setSubjectArea] = useState<SubjectArea>('Biology');
-  const [videoType, setVideoType] = useState<VideoType>('JoVE Journal');
+  const [videoType, setVideoType] = useState<VideoType>('Research Journal');
   const [sourceText, setSourceText] = useState(SAMPLE_INPUT);
   const [sourceFile, setSourceFile] = useState<string>();
   const [draft, setDraft] = useState<GeneratedScriptDraft>();
@@ -104,7 +104,7 @@ export default function ScriptGeneratorPage() {
     const url = URL.createObjectURL(blob);
     const anchor = document.createElement('a');
     anchor.href = url;
-    anchor.download = `${draft.title.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}-jove-draft.txt`;
+    anchor.download = `${draft.title.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}-draft.txt`;
     anchor.click();
     URL.revokeObjectURL(url);
     setToast('Draft export prepared');
@@ -122,7 +122,7 @@ export default function ScriptGeneratorPage() {
     <Box>
       <PageHeader
         title="AI Video Manuscript & Script Generator"
-        subtitle="Prototype for the PRD author workflow: paste research material, generate a JoVE-structured manuscript, validate required sections, and surface edit-ready guidance."
+        subtitle="Prototype for the PRD author workflow: paste research material, generate a structured manuscript, validate required sections, and surface edit-ready guidance."
         actions={
           <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
             <Button variant="outlined" component="label" startIcon={<UploadFileRoundedIcon />}>
@@ -230,7 +230,7 @@ export default function ScriptGeneratorPage() {
                 <Stack spacing={1}>
                   <LinearProgress />
                   <Typography variant="caption" color="text.secondary">
-                    Applying JoVE style guide, section templates, and validation checks
+                    Applying style guide, section templates, and validation checks
                   </Typography>
                 </Stack>
               )}
@@ -244,14 +244,14 @@ export default function ScriptGeneratorPage() {
             <CardContent>
               <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="space-between">
                 <Box>
-                  <Typography variant="subtitle1">Generated JoVE manuscript draft</Typography>
+                  <Typography variant="subtitle1">Generated manuscript draft</Typography>
                   <Typography variant="body2" color="text.secondary">
                     Required sections are locked, editor-ready, and validated before submission unlocks.
                   </Typography>
                 </Box>
                 {draft && (
                   <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap" useFlexGap>
-                    <Chip size="small" icon={<FactCheckRoundedIcon />} label={`${draft.estimatedGenerationSeconds}s mock generation`} />
+                    <Chip size="small" icon={<FactCheckRoundedIcon />} label={`${draft.estimatedGenerationSeconds}s sample generation`} />
                     <Chip size="small" color="success" variant="outlined" label={`${draft.timeSavedHours}h saved`} />
                   </Stack>
                 )}
@@ -264,7 +264,7 @@ export default function ScriptGeneratorPage() {
                   <AutoFixHighRoundedIcon sx={{ fontSize: 48, color: 'primary.main' }} />
                   <Typography variant="h6">Draft preview</Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 520 }}>
-                    JoVE sections, style checks, and validation guidance will appear here.
+                    Required sections, style checks, and validation guidance will appear here.
                   </Typography>
                 </Stack>
               ) : (

@@ -57,7 +57,7 @@ export function buildGeneratedDraft(input: ScriptGenerationInput): GeneratedScri
   issues.push({
     id: 'draft-issue-word-count',
     severity: 'info',
-    title: 'Discussion is within JoVE guidance',
+    title: 'Discussion is within style guidance',
     location: 'Discussion',
     recommendation: 'Keep final commentary concise and avoid first-person phrasing.',
   });
@@ -91,7 +91,7 @@ export function buildGeneratedDraft(input: ScriptGenerationInput): GeneratedScri
       section(
         'discussion',
         'Discussion',
-        'The discussion explains critical steps, common pitfalls, troubleshooting guidance, and limitations while preserving JoVE style and avoiding unsupported claims.',
+        'The discussion explains critical steps, common pitfalls, troubleshooting guidance, and limitations while preserving manuscript style and avoiding unsupported claims.',
         92,
       ),
     ],

@@ -19,7 +19,7 @@ export const MODULE_NAV_ITEMS: ModuleNavItem[] = [
     title: 'Script Generator',
     route: '/script-generator',
     icon: 'script',
-    description: 'Author input, JoVE-structured draft, and validation report',
+    description: 'Author input, structured draft, and validation report',
   },
   {
     id: 'editorial',

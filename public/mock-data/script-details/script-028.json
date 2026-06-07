@@ -5,7 +5,7 @@
     "author": "Helena Brooks",
     "institution": "Ridgeview Molecular Lab",
     "subjectArea": "Neuroscience",
-    "videoType": "JoVE Journal",
+    "videoType": "Research Journal",
     "sourceType": "Protocol notes",
     "status": "approved",
     "submittedAt": "2026-05-07",
@@ -19,9 +19,9 @@
     "timeSavedHours": 10,
     "owner": "Jordan Lee"
   },
-  "sourceSummary": "Helena Brooks uploaded protocol notes for a JoVE Journal manuscript. The AI draft used JoVE section rules, subject terminology, and published-article examples for Neuroscience.",
+  "sourceSummary": "Helena Brooks uploaded protocol notes for a Research Journal manuscript. The AI draft used manuscript section rules, subject terminology, and published-article examples for Neuroscience.",
   "styleGuideContext": [
-    "All required JoVE sections must be present.",
+    "All required manuscript sections must be present.",
     "Protocol instructions use numbered imperative voice.",
     "No first-person phrasing in restricted manuscript sections.",
     "Figures, tables, materials, and safety notes must be explicitly referenced."
@@ -33,7 +33,7 @@
       "wordCount": 635,
       "qualityScore": 90,
       "locked": true,
-      "body": "This section frames the neuroscience problem, describes why the visual method matters, and positions the procedure for JoVE viewers. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution."
+      "body": "This section frames the neuroscience problem, describes why the visual method matters, and positions the procedure for video learners. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution."
     },
     {
       "id": "script-028-section-2",
@@ -71,13 +71,13 @@
     {
       "id": "script-028-issue-style",
       "severity": "info",
-      "title": "JoVE section structure preserved",
+      "title": "Required section structure preserved",
       "location": "All sections",
       "recommendation": "Locked sections are present and cannot be deleted in the author editor."
     }
   ],
   "editorialNotes": [
-    "AI draft generated with JoVE house structure locked.",
+    "AI draft generated with the manuscript structure locked.",
     "Estimated revision cycles reduced to 2.",
     "Author must clear red validation flags before submission unlocks."
   ]

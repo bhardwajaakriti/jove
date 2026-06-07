@@ -200,7 +200,7 @@ export function buildDashboardSummary(
         'percent',
         14.2,
         'positive',
-        'Author starts to JoVE-ready drafts',
+        'Author starts to editor-ready drafts',
       ),
       metric(
         'scriptScore',
