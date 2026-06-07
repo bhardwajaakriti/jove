@@ -1,0 +1,90 @@
+{
+  "job": {
+    "id": "loc-028",
+    "title": "Microscopy and Imaging",
+    "course": "Medicine Core Lab 282",
+    "subjectArea": "Medicine",
+    "assetType": "SRT/VTT",
+    "targetLanguage": "French",
+    "market": "France",
+    "status": "validation",
+    "queuedAt": "2026-05-29",
+    "assetCount": 33,
+    "segmentCount": 181,
+    "validationScore": 72,
+    "criticalIssues": 1,
+    "warningIssues": 8,
+    "infoIssues": 7,
+    "templatePreservationPct": 88.2,
+    "glossaryAccuracyPct": 87.3,
+    "overflowBoxes": 2,
+    "reviewer": "Priya Shah",
+    "etaHours": 25
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "French output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-028-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Preparez et etiquetez chaque echantillon avant de commencer la procedure.",
+      "confidencePct": 89
+    },
+    {
+      "id": "loc-028-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized French segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 71,
+      "issue": "warning"
+    },
+    {
+      "id": "loc-028-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized French segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 94
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-028-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-028-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-028-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Medicine",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "pipette",
+      "subjectArea": "Medicine",
+      "consistencyPct": 86
+    },
+    {
+      "source": "centrifuge",
+      "target": "French glossary term",
+      "subjectArea": "Medicine",
+      "consistencyPct": 82
+    }
+  ]
+}

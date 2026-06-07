@@ -1,0 +1,98 @@
+{
+  "submission": {
+    "id": "script-030",
+    "title": "Water Quality Assay Protocol 30",
+    "author": "Dr. Samir Rao",
+    "institution": "Montclair College of Science",
+    "subjectArea": "Environmental Sciences",
+    "videoType": "JoVE Journal",
+    "sourceType": "Abstract paste",
+    "status": "needs-author-fix",
+    "submittedAt": "2026-05-28",
+    "validationScore": 58,
+    "redFlags": 3,
+    "amberFlags": 6,
+    "greenChecks": 12,
+    "wordCount": 1604,
+    "completionPct": 63,
+    "estimatedRevisionCycles": 3.8,
+    "timeSavedHours": 9.9,
+    "owner": "Eli Morgan"
+  },
+  "sourceSummary": "Dr. Samir Rao uploaded abstract paste for a JoVE Journal manuscript. The AI draft used JoVE section rules, subject terminology, and published-article examples for Environmental Sciences.",
+  "styleGuideContext": [
+    "All required JoVE sections must be present.",
+    "Protocol instructions use numbered imperative voice.",
+    "No first-person phrasing in restricted manuscript sections.",
+    "Figures, tables, materials, and safety notes must be explicitly referenced."
+  ],
+  "sections": [
+    {
+      "id": "script-030-section-1",
+      "title": "Introduction",
+      "wordCount": 424,
+      "qualityScore": 62,
+      "locked": true,
+      "body": "This section frames the environmental sciences problem, describes why the visual method matters, and positions the procedure for JoVE viewers. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution."
+    },
+    {
+      "id": "script-030-section-2",
+      "title": "Protocol",
+      "wordCount": 668,
+      "qualityScore": 62,
+      "locked": true,
+      "body": "1. Prepare samples, reagents, and equipment, including the centrifuge. 2. Label each sample and control before beginning the procedure. 3. Execute the procedure in numbered imperative steps. 4. Record timing, temperature, and visual acceptance criteria after each critical step."
+    },
+    {
+      "id": "script-030-section-3",
+      "title": "Representative Results",
+      "wordCount": 637,
+      "qualityScore": 62,
+      "locked": true,
+      "body": "Representative outputs should show the expected visual endpoint, quantified comparison, and figure references. The draft calls out Figure 1 for setup, Figure 2 for the observed outcome, and Table 1 for quality control values."
+    },
+    {
+      "id": "script-030-section-4",
+      "title": "Discussion",
+      "wordCount": 271,
+      "qualityScore": 62,
+      "locked": true,
+      "body": "The discussion identifies critical steps, troubleshooting guidance, limitations, and safe handling notes. It avoids first-person phrasing and keeps claims tied to observations captured during filming."
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "script-030-issue-protocol",
+      "severity": "critical",
+      "title": "Protocol steps need stricter imperative voice",
+      "location": "Protocol",
+      "recommendation": "Rewrite passive steps as direct actions and confirm each step can be filmed."
+    },
+    {
+      "id": "script-030-issue-materials",
+      "severity": "critical",
+      "title": "Materials list is incomplete",
+      "location": "Protocol",
+      "recommendation": "Add reagents, equipment, supplier-neutral descriptions, and safety constraints."
+    },
+    {
+      "id": "script-030-issue-results",
+      "severity": "warning",
+      "title": "Representative results need tighter figure references",
+      "location": "Representative Results",
+      "recommendation": "Attach figure labels to each expected visual outcome before editorial review."
+    },
+    {
+      "id": "script-030-issue-style",
+      "severity": "info",
+      "title": "JoVE section structure preserved",
+      "location": "All sections",
+      "recommendation": "Locked sections are present and cannot be deleted in the author editor."
+    }
+  ],
+  "editorialNotes": [
+    "AI draft generated with JoVE house structure locked.",
+    "Estimated revision cycles reduced to 3.8.",
+    "Author must clear red validation flags before submission unlocks."
+  ]
+}

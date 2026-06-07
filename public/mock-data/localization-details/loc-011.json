@@ -1,0 +1,82 @@
+{
+  "job": {
+    "id": "loc-011",
+    "title": "Environmental Sampling",
+    "course": "Chemistry Core Lab 262",
+    "subjectArea": "Chemistry",
+    "assetType": "PPTX",
+    "targetLanguage": "German",
+    "market": "Germany",
+    "status": "validation",
+    "queuedAt": "2026-05-26",
+    "assetCount": 13,
+    "segmentCount": 246,
+    "validationScore": 84,
+    "criticalIssues": 1,
+    "warningIssues": 2,
+    "infoIssues": 5,
+    "templatePreservationPct": 92.1,
+    "glossaryAccuracyPct": 91.7,
+    "overflowBoxes": 1,
+    "reviewer": "Sofia Ramirez",
+    "etaHours": 15
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "German output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-011-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Bereiten Sie jede Probe vor und beschriften Sie sie vor Beginn des Verfahrens.",
+      "confidencePct": 91
+    },
+    {
+      "id": "loc-011-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized German segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 88
+    },
+    {
+      "id": "loc-011-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized German segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 94
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-011-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-011-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "German glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 90
+    },
+    {
+      "source": "centrifuge",
+      "target": "German glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 89
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "job": {
+    "id": "loc-017",
+    "title": "Clinical Skills: Sterile Technique",
+    "course": "Biology Core Lab 324",
+    "subjectArea": "Biology",
+    "assetType": "PDF",
+    "targetLanguage": "German",
+    "market": "Germany",
+    "status": "validation",
+    "queuedAt": "2026-05-19",
+    "assetCount": 14,
+    "segmentCount": 456,
+    "validationScore": 86,
+    "criticalIssues": 1,
+    "warningIssues": 1,
+    "infoIssues": 4,
+    "templatePreservationPct": 92.8,
+    "glossaryAccuracyPct": 92.4,
+    "overflowBoxes": 3,
+    "reviewer": "Eli Morgan",
+    "etaHours": 7
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "German output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-017-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Bereiten Sie jede Probe vor und beschriften Sie sie vor Beginn des Verfahrens.",
+      "confidencePct": 91
+    },
+    {
+      "id": "loc-017-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized German segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 89
+    },
+    {
+      "id": "loc-017-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized German segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 94
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-017-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-017-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Biology",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "German glossary term",
+      "subjectArea": "Biology",
+      "consistencyPct": 90
+    },
+    {
+      "source": "centrifuge",
+      "target": "German glossary term",
+      "subjectArea": "Biology",
+      "consistencyPct": 92
+    }
+  ]
+}

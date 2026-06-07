@@ -1,0 +1,98 @@
+{
+  "job": {
+    "id": "loc-032",
+    "title": "Neural Recording Methods",
+    "course": "Chemistry Core Lab 428",
+    "subjectArea": "Chemistry",
+    "assetType": "PDF",
+    "targetLanguage": "Mandarin",
+    "market": "Mainland China",
+    "status": "blocked",
+    "queuedAt": "2026-05-07",
+    "assetCount": 35,
+    "segmentCount": 461,
+    "validationScore": 60,
+    "criticalIssues": 2,
+    "warningIssues": 7,
+    "infoIssues": 11,
+    "templatePreservationPct": 83.4,
+    "glossaryAccuracyPct": 85,
+    "overflowBoxes": 2,
+    "reviewer": "Sofia Ramirez",
+    "etaHours": 36
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Mandarin output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-032-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "在开始步骤前准备并标记每个样本。",
+      "confidencePct": 83
+    },
+    {
+      "id": "loc-032-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Mandarin segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 70,
+      "issue": "warning"
+    },
+    {
+      "id": "loc-032-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Mandarin segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 76,
+      "issue": "critical"
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-032-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-032-issue-placeholder",
+      "severity": "critical",
+      "title": "Figure placeholder changed during translation",
+      "location": "Companion document",
+      "recommendation": "Restore [Figure 1] and [Table 2] placeholders exactly as source."
+    },
+    {
+      "id": "loc-032-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-032-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Mandarin glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 83
+    },
+    {
+      "source": "centrifuge",
+      "target": "Mandarin glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 84
+    }
+  ]
+}

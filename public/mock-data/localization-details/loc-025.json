@@ -1,0 +1,90 @@
+{
+  "job": {
+    "id": "loc-025",
+    "title": "Organic Synthesis Lab",
+    "course": "Engineering Core Lab 271",
+    "subjectArea": "Engineering",
+    "assetType": "PPTX",
+    "targetLanguage": "Spanish",
+    "market": "Latin America",
+    "status": "blocked",
+    "queuedAt": "2026-06-01",
+    "assetCount": 53,
+    "segmentCount": 508,
+    "validationScore": 75,
+    "criticalIssues": 2,
+    "warningIssues": 1,
+    "infoIssues": 10,
+    "templatePreservationPct": 89.1,
+    "glossaryAccuracyPct": 89.4,
+    "overflowBoxes": 5,
+    "reviewer": "Sofia Ramirez",
+    "etaHours": 44
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Spanish output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-025-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Prepare y etiquete cada muestra antes de iniciar el procedimiento.",
+      "confidencePct": 86
+    },
+    {
+      "id": "loc-025-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Spanish segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 74
+    },
+    {
+      "id": "loc-025-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Spanish segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 76,
+      "issue": "critical"
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-025-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-025-issue-placeholder",
+      "severity": "critical",
+      "title": "Figure placeholder changed during translation",
+      "location": "Companion document",
+      "recommendation": "Restore [Figure 1] and [Table 2] placeholders exactly as source."
+    },
+    {
+      "id": "loc-025-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Engineering",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Spanish glossary term",
+      "subjectArea": "Engineering",
+      "consistencyPct": 86
+    },
+    {
+      "source": "centrifuge",
+      "target": "Spanish glossary term",
+      "subjectArea": "Engineering",
+      "consistencyPct": 88
+    }
+  ]
+}

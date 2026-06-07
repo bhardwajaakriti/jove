@@ -1,0 +1,82 @@
+{
+  "job": {
+    "id": "loc-014",
+    "title": "Microscopy and Imaging",
+    "course": "Chemistry Core Lab 230",
+    "subjectArea": "Chemistry",
+    "assetType": "SRT/VTT",
+    "targetLanguage": "Mandarin",
+    "market": "Mainland China",
+    "status": "review",
+    "queuedAt": "2026-05-12",
+    "assetCount": 69,
+    "segmentCount": 538,
+    "validationScore": 83,
+    "criticalIssues": 1,
+    "warningIssues": 2,
+    "infoIssues": 6,
+    "templatePreservationPct": 90.8,
+    "glossaryAccuracyPct": 91.1,
+    "overflowBoxes": 4,
+    "reviewer": "Sofia Ramirez",
+    "etaHours": 41
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Mandarin output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-014-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "在开始步骤前准备并标记每个样本。",
+      "confidencePct": 90
+    },
+    {
+      "id": "loc-014-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Mandarin segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 78
+    },
+    {
+      "id": "loc-014-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Mandarin segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 94
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-014-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-014-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Mandarin glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 89
+    },
+    {
+      "source": "centrifuge",
+      "target": "Mandarin glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 89
+    }
+  ]
+}

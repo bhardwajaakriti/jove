@@ -1,0 +1,90 @@
+{
+  "job": {
+    "id": "loc-007",
+    "title": "Microscopy and Imaging",
+    "course": "Biology Core Lab 142",
+    "subjectArea": "Biology",
+    "assetType": "PDF",
+    "targetLanguage": "Spanish",
+    "market": "Latin America",
+    "status": "blocked",
+    "queuedAt": "2026-05-11",
+    "assetCount": 72,
+    "segmentCount": 192,
+    "validationScore": 60,
+    "criticalIssues": 3,
+    "warningIssues": 2,
+    "infoIssues": 2,
+    "templatePreservationPct": 81.2,
+    "glossaryAccuracyPct": 81.7,
+    "overflowBoxes": 3,
+    "reviewer": "Eli Morgan",
+    "etaHours": 4
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Spanish output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-007-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Prepare y etiquete cada muestra antes de iniciar el procedimiento.",
+      "confidencePct": 83
+    },
+    {
+      "id": "loc-007-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Spanish segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 70
+    },
+    {
+      "id": "loc-007-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Spanish segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 76,
+      "issue": "critical"
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-007-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-007-issue-placeholder",
+      "severity": "critical",
+      "title": "Figure placeholder changed during translation",
+      "location": "Companion document",
+      "recommendation": "Restore [Figure 1] and [Table 2] placeholders exactly as source."
+    },
+    {
+      "id": "loc-007-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Biology",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Spanish glossary term",
+      "subjectArea": "Biology",
+      "consistencyPct": 81
+    },
+    {
+      "source": "centrifuge",
+      "target": "Spanish glossary term",
+      "subjectArea": "Biology",
+      "consistencyPct": 77
+    }
+  ]
+}

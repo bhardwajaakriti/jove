@@ -1,0 +1,59 @@
+{
+  "subjectAreas": [
+    "Biology",
+    "Chemistry",
+    "Neuroscience",
+    "Medicine",
+    "Engineering",
+    "Environmental Sciences"
+  ],
+  "scriptStatuses": [
+    "intake",
+    "generated",
+    "needs-author-fix",
+    "editorial-review",
+    "revision-requested",
+    "approved"
+  ],
+  "localizationStatuses": [
+    "ingested",
+    "translating",
+    "validation",
+    "review",
+    "published",
+    "blocked"
+  ],
+  "videoTypes": [
+    "JoVE Journal",
+    "Science Education"
+  ],
+  "assetTypes": [
+    "PPTX",
+    "PDF",
+    "DOCX",
+    "SRT/VTT"
+  ],
+  "languages": [
+    "Spanish",
+    "Mandarin",
+    "Portuguese",
+    "French",
+    "German",
+    "Japanese"
+  ],
+  "markets": [
+    "Latin America",
+    "Mainland China",
+    "Brazil",
+    "France",
+    "Germany",
+    "Japan"
+  ],
+  "owners": [
+    "Maya Patel",
+    "Jordan Lee",
+    "Sofia Ramirez",
+    "Eli Morgan",
+    "Priya Shah"
+  ]
+}

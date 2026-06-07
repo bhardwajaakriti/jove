@@ -1,0 +1,83 @@
+{
+  "job": {
+    "id": "loc-008",
+    "title": "Clinical Skills: Sterile Technique",
+    "course": "Biology Core Lab 238",
+    "subjectArea": "Biology",
+    "assetType": "SRT/VTT",
+    "targetLanguage": "Mandarin",
+    "market": "Mainland China",
+    "status": "published",
+    "queuedAt": "2026-05-15",
+    "assetCount": 57,
+    "segmentCount": 140,
+    "validationScore": 93,
+    "criticalIssues": 0,
+    "warningIssues": 4,
+    "infoIssues": 9,
+    "templatePreservationPct": 95.8,
+    "glossaryAccuracyPct": 94.7,
+    "overflowBoxes": 2,
+    "reviewer": "Priya Shah",
+    "etaHours": 37
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Mandarin output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-008-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "在开始步骤前准备并标记每个样本。",
+      "confidencePct": 91
+    },
+    {
+      "id": "loc-008-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Mandarin segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 92,
+      "issue": "warning"
+    },
+    {
+      "id": "loc-008-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Mandarin segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 94
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-008-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-008-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Biology",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Mandarin glossary term",
+      "subjectArea": "Biology",
+      "consistencyPct": 94
+    },
+    {
+      "source": "centrifuge",
+      "target": "Mandarin glossary term",
+      "subjectArea": "Biology",
+      "consistencyPct": 91
+    }
+  ]
+}

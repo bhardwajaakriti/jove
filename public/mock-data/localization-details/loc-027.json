@@ -1,0 +1,83 @@
+{
+  "job": {
+    "id": "loc-027",
+    "title": "Clinical Skills: Sterile Technique",
+    "course": "Chemistry Core Lab 437",
+    "subjectArea": "Chemistry",
+    "assetType": "PDF",
+    "targetLanguage": "Portuguese",
+    "market": "Brazil",
+    "status": "review",
+    "queuedAt": "2026-06-03",
+    "assetCount": 53,
+    "segmentCount": 517,
+    "validationScore": 89,
+    "criticalIssues": 0,
+    "warningIssues": 4,
+    "infoIssues": 11,
+    "templatePreservationPct": 95.4,
+    "glossaryAccuracyPct": 94.6,
+    "overflowBoxes": 3,
+    "reviewer": "Priya Shah",
+    "etaHours": 14
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Portuguese output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-027-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Prepare e rotule cada amostra antes de iniciar o procedimento.",
+      "confidencePct": 95
+    },
+    {
+      "id": "loc-027-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Portuguese segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 89,
+      "issue": "warning"
+    },
+    {
+      "id": "loc-027-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Portuguese segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 94
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-027-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-027-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Portuguese glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 94
+    },
+    {
+      "source": "centrifuge",
+      "target": "Portuguese glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 91
+    }
+  ]
+}

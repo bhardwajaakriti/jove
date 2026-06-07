@@ -1,0 +1,98 @@
+{
+  "job": {
+    "id": "loc-006",
+    "title": "Microscopy and Imaging",
+    "course": "Engineering Core Lab 158",
+    "subjectArea": "Engineering",
+    "assetType": "PDF",
+    "targetLanguage": "Japanese",
+    "market": "Japan",
+    "status": "blocked",
+    "queuedAt": "2026-06-05",
+    "assetCount": 62,
+    "segmentCount": 540,
+    "validationScore": 62,
+    "criticalIssues": 2,
+    "warningIssues": 7,
+    "infoIssues": 3,
+    "templatePreservationPct": 83.3,
+    "glossaryAccuracyPct": 82.5,
+    "overflowBoxes": 3,
+    "reviewer": "Sofia Ramirez",
+    "etaHours": 36
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Japanese output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-006-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "手順を開始する前に各サンプルを準備し、ラベルを付けます。",
+      "confidencePct": 80
+    },
+    {
+      "id": "loc-006-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Japanese segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 70,
+      "issue": "warning"
+    },
+    {
+      "id": "loc-006-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Japanese segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 76,
+      "issue": "critical"
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-006-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-006-issue-placeholder",
+      "severity": "critical",
+      "title": "Figure placeholder changed during translation",
+      "location": "Companion document",
+      "recommendation": "Restore [Figure 1] and [Table 2] placeholders exactly as source."
+    },
+    {
+      "id": "loc-006-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-006-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Engineering",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Japanese glossary term",
+      "subjectArea": "Engineering",
+      "consistencyPct": 82
+    },
+    {
+      "source": "centrifuge",
+      "target": "Japanese glossary term",
+      "subjectArea": "Engineering",
+      "consistencyPct": 79
+    }
+  ]
+}

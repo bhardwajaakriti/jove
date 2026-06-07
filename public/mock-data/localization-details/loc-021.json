@@ -1,0 +1,83 @@
+{
+  "job": {
+    "id": "loc-021",
+    "title": "Neural Recording Methods",
+    "course": "Medicine Core Lab 229",
+    "subjectArea": "Medicine",
+    "assetType": "SRT/VTT",
+    "targetLanguage": "Portuguese",
+    "market": "Brazil",
+    "status": "review",
+    "queuedAt": "2026-05-13",
+    "assetCount": 69,
+    "segmentCount": 367,
+    "validationScore": 87,
+    "criticalIssues": 0,
+    "warningIssues": 6,
+    "infoIssues": 12,
+    "templatePreservationPct": 92.7,
+    "glossaryAccuracyPct": 93.9,
+    "overflowBoxes": 4,
+    "reviewer": "Eli Morgan",
+    "etaHours": 28
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Portuguese output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-021-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Prepare e rotule cada amostra antes de iniciar o procedimento.",
+      "confidencePct": 95
+    },
+    {
+      "id": "loc-021-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Portuguese segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 88,
+      "issue": "warning"
+    },
+    {
+      "id": "loc-021-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Portuguese segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 94
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-021-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-021-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Medicine",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Portuguese glossary term",
+      "subjectArea": "Medicine",
+      "consistencyPct": 93
+    },
+    {
+      "source": "centrifuge",
+      "target": "Portuguese glossary term",
+      "subjectArea": "Medicine",
+      "consistencyPct": 89
+    }
+  ]
+}

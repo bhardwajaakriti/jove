@@ -1,0 +1,83 @@
+{
+  "job": {
+    "id": "loc-030",
+    "title": "Environmental Sampling",
+    "course": "Environmental Sciences Core Lab 348",
+    "subjectArea": "Environmental Sciences",
+    "assetType": "SRT/VTT",
+    "targetLanguage": "Japanese",
+    "market": "Japan",
+    "status": "validation",
+    "queuedAt": "2026-05-29",
+    "assetCount": 15,
+    "segmentCount": 483,
+    "validationScore": 85,
+    "criticalIssues": 0,
+    "warningIssues": 6,
+    "infoIssues": 11,
+    "templatePreservationPct": 91.5,
+    "glossaryAccuracyPct": 91.5,
+    "overflowBoxes": 4,
+    "reviewer": "Jordan Lee",
+    "etaHours": 31
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Japanese output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-030-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "手順を開始する前に各サンプルを準備し、ラベルを付けます。",
+      "confidencePct": 88
+    },
+    {
+      "id": "loc-030-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Japanese segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 82,
+      "issue": "warning"
+    },
+    {
+      "id": "loc-030-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Japanese segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 94
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-030-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-030-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Environmental Sciences",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Japanese glossary term",
+      "subjectArea": "Environmental Sciences",
+      "consistencyPct": 89
+    },
+    {
+      "source": "centrifuge",
+      "target": "Japanese glossary term",
+      "subjectArea": "Environmental Sciences",
+      "consistencyPct": 88
+    }
+  ]
+}

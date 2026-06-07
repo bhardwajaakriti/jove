@@ -1,0 +1,98 @@
+{
+  "submission": {
+    "id": "script-026",
+    "title": "Sensor Calibration Protocol 26",
+    "author": "Ava Morrison",
+    "institution": "Sao Paulo Research Institute",
+    "subjectArea": "Engineering",
+    "videoType": "Science Education",
+    "sourceType": "Protocol notes",
+    "status": "needs-author-fix",
+    "submittedAt": "2026-05-24",
+    "validationScore": 58,
+    "redFlags": 3,
+    "amberFlags": 4,
+    "greenChecks": 8,
+    "wordCount": 1685,
+    "completionPct": 61,
+    "estimatedRevisionCycles": 3.8,
+    "timeSavedHours": 9.6,
+    "owner": "Jordan Lee"
+  },
+  "sourceSummary": "Ava Morrison uploaded protocol notes for a Science Education manuscript. The AI draft used JoVE section rules, subject terminology, and published-article examples for Engineering.",
+  "styleGuideContext": [
+    "All required JoVE sections must be present.",
+    "Protocol instructions use numbered imperative voice.",
+    "No first-person phrasing in restricted manuscript sections.",
+    "Figures, tables, materials, and safety notes must be explicitly referenced."
+  ],
+  "sections": [
+    {
+      "id": "script-026-section-1",
+      "title": "Introduction",
+      "wordCount": 574,
+      "qualityScore": 62,
+      "locked": true,
+      "body": "This section frames the engineering problem, describes why the visual method matters, and positions the procedure for JoVE viewers. The draft summarizes the scientific rationale, expected learning outcome, and experimental context for reproducible execution."
+    },
+    {
+      "id": "script-026-section-2",
+      "title": "Protocol",
+      "wordCount": 815,
+      "qualityScore": 63,
+      "locked": true,
+      "body": "1. Prepare samples, reagents, and equipment, including the buffer. 2. Label each sample and control before beginning the procedure. 3. Execute the procedure in numbered imperative steps. 4. Record timing, temperature, and visual acceptance criteria after each critical step."
+    },
+    {
+      "id": "script-026-section-3",
+      "title": "Representative Results",
+      "wordCount": 508,
+      "qualityScore": 64,
+      "locked": true,
+      "body": "Representative outputs should show the expected visual endpoint, quantified comparison, and figure references. The draft calls out Figure 1 for setup, Figure 2 for the observed outcome, and Table 1 for quality control values."
+    },
+    {
+      "id": "script-026-section-4",
+      "title": "Discussion",
+      "wordCount": 775,
+      "qualityScore": 62,
+      "locked": true,
+      "body": "The discussion identifies critical steps, troubleshooting guidance, limitations, and safe handling notes. It avoids first-person phrasing and keeps claims tied to observations captured during filming."
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "script-026-issue-protocol",
+      "severity": "critical",
+      "title": "Protocol steps need stricter imperative voice",
+      "location": "Protocol",
+      "recommendation": "Rewrite passive steps as direct actions and confirm each step can be filmed."
+    },
+    {
+      "id": "script-026-issue-materials",
+      "severity": "critical",
+      "title": "Materials list is incomplete",
+      "location": "Protocol",
+      "recommendation": "Add reagents, equipment, supplier-neutral descriptions, and safety constraints."
+    },
+    {
+      "id": "script-026-issue-results",
+      "severity": "warning",
+      "title": "Representative results need tighter figure references",
+      "location": "Representative Results",
+      "recommendation": "Attach figure labels to each expected visual outcome before editorial review."
+    },
+    {
+      "id": "script-026-issue-style",
+      "severity": "info",
+      "title": "JoVE section structure preserved",
+      "location": "All sections",
+      "recommendation": "Locked sections are present and cannot be deleted in the author editor."
+    }
+  ],
+  "editorialNotes": [
+    "AI draft generated with JoVE house structure locked.",
+    "Estimated revision cycles reduced to 3.8.",
+    "Author must clear red validation flags before submission unlocks."
+  ]
+}

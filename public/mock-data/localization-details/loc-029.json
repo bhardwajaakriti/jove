@@ -1,0 +1,97 @@
+{
+  "job": {
+    "id": "loc-029",
+    "title": "Cell Culture Fundamentals",
+    "course": "Biology Core Lab 416",
+    "subjectArea": "Biology",
+    "assetType": "DOCX",
+    "targetLanguage": "German",
+    "market": "Germany",
+    "status": "blocked",
+    "queuedAt": "2026-06-04",
+    "assetCount": 40,
+    "segmentCount": 456,
+    "validationScore": 62,
+    "criticalIssues": 3,
+    "warningIssues": 3,
+    "infoIssues": 2,
+    "templatePreservationPct": 80.3,
+    "glossaryAccuracyPct": 84.2,
+    "overflowBoxes": 7,
+    "reviewer": "Maya Patel",
+    "etaHours": 25
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "German output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-029-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Bereiten Sie jede Probe vor und beschriften Sie sie vor Beginn des Verfahrens.",
+      "confidencePct": 84
+    },
+    {
+      "id": "loc-029-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized German segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 70
+    },
+    {
+      "id": "loc-029-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized German segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 76,
+      "issue": "critical"
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-029-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-029-issue-placeholder",
+      "severity": "critical",
+      "title": "Figure placeholder changed during translation",
+      "location": "Companion document",
+      "recommendation": "Restore [Figure 1] and [Table 2] placeholders exactly as source."
+    },
+    {
+      "id": "loc-029-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-029-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Biology",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "German glossary term",
+      "subjectArea": "Biology",
+      "consistencyPct": 83
+    },
+    {
+      "source": "centrifuge",
+      "target": "German glossary term",
+      "subjectArea": "Biology",
+      "consistencyPct": 83
+    }
+  ]
+}

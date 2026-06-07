@@ -1,0 +1,182 @@
+[
+  {
+    "id": "activity-script-1",
+    "timestamp": "2026-06-07",
+    "feature": "Script Generator",
+    "title": "Ultrasound-Guided Sampling Protocol 01",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Priya Shah",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-script-2",
+    "timestamp": "2026-06-06",
+    "feature": "Script Generator",
+    "title": "Immunostaining Brain Tissue Protocol 02",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Maya Patel",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-1",
+    "timestamp": "2026-06-06",
+    "feature": "Localization Engine",
+    "title": "Environmental Sampling - Spanish",
+    "detail": "Template or placeholder issue requires reviewer action.",
+    "owner": "Sofia Ramirez",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-script-3",
+    "timestamp": "2026-06-05",
+    "feature": "Script Generator",
+    "title": "Flow Cytometry Gating Protocol 03",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Jordan Lee",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-2",
+    "timestamp": "2026-06-05",
+    "feature": "Localization Engine",
+    "title": "Organic Synthesis Lab - Mandarin",
+    "detail": "Template or placeholder issue requires reviewer action.",
+    "owner": "Jordan Lee",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-script-4",
+    "timestamp": "2026-06-04",
+    "feature": "Script Generator",
+    "title": "Ultrasound-Guided Sampling Protocol 04",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Jordan Lee",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-3",
+    "timestamp": "2026-06-04",
+    "feature": "Localization Engine",
+    "title": "Microscopy and Imaging - Portuguese",
+    "detail": "Glossary and layout checks completed.",
+    "owner": "Sofia Ramirez",
+    "severity": "warning"
+  },
+  {
+    "id": "activity-script-5",
+    "timestamp": "2026-06-03",
+    "feature": "Script Generator",
+    "title": "3D Printed Scaffold Testing Protocol 05",
+    "detail": "Draft passed JoVE section structure checks.",
+    "owner": "Priya Shah",
+    "severity": "info"
+  },
+  {
+    "id": "activity-loc-4",
+    "timestamp": "2026-06-03",
+    "feature": "Localization Engine",
+    "title": "Clinical Skills: Sterile Technique - French",
+    "detail": "Template or placeholder issue requires reviewer action.",
+    "owner": "Priya Shah",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-script-6",
+    "timestamp": "2026-06-02",
+    "feature": "Script Generator",
+    "title": "Immunostaining Brain Tissue Protocol 06",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Eli Morgan",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-5",
+    "timestamp": "2026-06-02",
+    "feature": "Localization Engine",
+    "title": "Organic Synthesis Lab - German",
+    "detail": "Glossary and layout checks completed.",
+    "owner": "Sofia Ramirez",
+    "severity": "warning"
+  },
+  {
+    "id": "activity-script-7",
+    "timestamp": "2026-06-01",
+    "feature": "Script Generator",
+    "title": "3D Printed Scaffold Testing Protocol 07",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Jordan Lee",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-6",
+    "timestamp": "2026-06-01",
+    "feature": "Localization Engine",
+    "title": "Microscopy and Imaging - Japanese",
+    "detail": "Template or placeholder issue requires reviewer action.",
+    "owner": "Sofia Ramirez",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-script-8",
+    "timestamp": "2026-05-31",
+    "feature": "Script Generator",
+    "title": "Thin-Layer Chromatography Protocol 08",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Maya Patel",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-7",
+    "timestamp": "2026-05-31",
+    "feature": "Localization Engine",
+    "title": "Microscopy and Imaging - Spanish",
+    "detail": "Template or placeholder issue requires reviewer action.",
+    "owner": "Eli Morgan",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-script-9",
+    "timestamp": "2026-05-30",
+    "feature": "Script Generator",
+    "title": "Preparing Primary Cell Cultures Protocol 09",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Maya Patel",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-8",
+    "timestamp": "2026-05-30",
+    "feature": "Localization Engine",
+    "title": "Clinical Skills: Sterile Technique - Mandarin",
+    "detail": "Glossary and layout checks completed.",
+    "owner": "Priya Shah",
+    "severity": "info"
+  },
+  {
+    "id": "activity-script-10",
+    "timestamp": "2026-05-29",
+    "feature": "Script Generator",
+    "title": "3D Printed Scaffold Testing Protocol 10",
+    "detail": "Validation report flagged required author fixes.",
+    "owner": "Sofia Ramirez",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-9",
+    "timestamp": "2026-05-29",
+    "feature": "Localization Engine",
+    "title": "Organic Synthesis Lab - Portuguese",
+    "detail": "Template or placeholder issue requires reviewer action.",
+    "owner": "Maya Patel",
+    "severity": "critical"
+  },
+  {
+    "id": "activity-loc-10",
+    "timestamp": "2026-05-28",
+    "feature": "Localization Engine",
+    "title": "Microscopy and Imaging - French",
+    "detail": "Template or placeholder issue requires reviewer action.",
+    "owner": "Sofia Ramirez",
+    "severity": "critical"
+  }
+]

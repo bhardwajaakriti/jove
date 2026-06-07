@@ -1,0 +1,90 @@
+{
+  "job": {
+    "id": "loc-034",
+    "title": "Cell Culture Fundamentals",
+    "course": "Chemistry Core Lab 326",
+    "subjectArea": "Chemistry",
+    "assetType": "PDF",
+    "targetLanguage": "French",
+    "market": "France",
+    "status": "blocked",
+    "queuedAt": "2026-05-07",
+    "assetCount": 16,
+    "segmentCount": 343,
+    "validationScore": 60,
+    "criticalIssues": 3,
+    "warningIssues": 2,
+    "infoIssues": 9,
+    "templatePreservationPct": 80.9,
+    "glossaryAccuracyPct": 85.4,
+    "overflowBoxes": 3,
+    "reviewer": "Sofia Ramirez",
+    "etaHours": 27
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "French output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-034-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Preparez et etiquetez chaque echantillon avant de commencer la procedure.",
+      "confidencePct": 83
+    },
+    {
+      "id": "loc-034-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized French segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 70
+    },
+    {
+      "id": "loc-034-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized French segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 76,
+      "issue": "critical"
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-034-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-034-issue-placeholder",
+      "severity": "critical",
+      "title": "Figure placeholder changed during translation",
+      "location": "Companion document",
+      "recommendation": "Restore [Figure 1] and [Table 2] placeholders exactly as source."
+    },
+    {
+      "id": "loc-034-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "pipette",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 83
+    },
+    {
+      "source": "centrifuge",
+      "target": "French glossary term",
+      "subjectArea": "Chemistry",
+      "consistencyPct": 84
+    }
+  ]
+}

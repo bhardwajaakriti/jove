@@ -1,0 +1,98 @@
+{
+  "job": {
+    "id": "loc-009",
+    "title": "Organic Synthesis Lab",
+    "course": "Neuroscience Core Lab 228",
+    "subjectArea": "Neuroscience",
+    "assetType": "PDF",
+    "targetLanguage": "Portuguese",
+    "market": "Brazil",
+    "status": "blocked",
+    "queuedAt": "2026-05-22",
+    "assetCount": 47,
+    "segmentCount": 178,
+    "validationScore": 67,
+    "criticalIssues": 2,
+    "warningIssues": 4,
+    "infoIssues": 10,
+    "templatePreservationPct": 84.4,
+    "glossaryAccuracyPct": 87,
+    "overflowBoxes": 5,
+    "reviewer": "Maya Patel",
+    "etaHours": 33
+  },
+  "originalLayout": "English source asset: JoVE title block, two-column protocol body, figure placeholder, and branded footer.",
+  "translatedLayout": "Portuguese output: same master slide, locked logo, retained image positions, and text boxes auto-fit to JoVE bounds.",
+  "segments": [
+    {
+      "id": "loc-009-seg-1",
+      "source": "Prepare and label each sample before beginning the procedure.",
+      "translated": "Prepare e rotule cada amostra antes de iniciar o procedimento.",
+      "confidencePct": 86
+    },
+    {
+      "id": "loc-009-seg-2",
+      "source": "Record temperature, incubation time, and visible acceptance criteria.",
+      "translated": "Localized Portuguese segment preserving the numbered instruction and measurement terms.",
+      "confidencePct": 70,
+      "issue": "warning"
+    },
+    {
+      "id": "loc-009-seg-3",
+      "source": "Do not translate the placeholder [Figure 1] or merge bullet levels.",
+      "translated": "Localized Portuguese segment with [Figure 1] preserved and bullet structure retained.",
+      "confidencePct": 76,
+      "issue": "critical"
+    }
+  ],
+  "validationIssues": [
+    {
+      "id": "loc-009-issue-overflow",
+      "severity": "critical",
+      "title": "Translated slide text exceeds safe text-box bounds",
+      "location": "Slide 7",
+      "recommendation": "Auto-scale to the minimum allowed font size, then manually shorten the segment."
+    },
+    {
+      "id": "loc-009-issue-placeholder",
+      "severity": "critical",
+      "title": "Figure placeholder changed during translation",
+      "location": "Companion document",
+      "recommendation": "Restore [Figure 1] and [Table 2] placeholders exactly as source."
+    },
+    {
+      "id": "loc-009-issue-term",
+      "severity": "warning",
+      "title": "Scientific term consistency needs review",
+      "location": "Glossary check",
+      "recommendation": "Approve one glossary mapping and apply it across all assets."
+    },
+    {
+      "id": "loc-009-issue-theme",
+      "severity": "info",
+      "title": "JoVE visual template preserved",
+      "location": "Master slides",
+      "recommendation": "Logos, colors, and image positions remained locked during generation."
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "source": "PCR",
+      "target": "PCR",
+      "subjectArea": "Neuroscience",
+      "consistencyPct": 100
+    },
+    {
+      "source": "pipette",
+      "target": "Portuguese glossary term",
+      "subjectArea": "Neuroscience",
+      "consistencyPct": 86
+    },
+    {
+      "source": "centrifuge",
+      "target": "Portuguese glossary term",
+      "subjectArea": "Neuroscience",
+      "consistencyPct": 85
+    }
+  ]
+}
